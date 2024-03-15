@@ -4,7 +4,7 @@ import { logout } from "../store/slices/userSlice";
 import { jwtDecode } from "jwt-decode";
 import { dispatch } from "../index";
 
-export const API_URL = "http://134.209.98.32:8000/api";
+export const API_URL = "http:///api";
 export const access_token_name = "asman_access_token";
 export const refresh_token_name = "asman_refresh_token";
 export const access_token = getCookie(access_token_name);
